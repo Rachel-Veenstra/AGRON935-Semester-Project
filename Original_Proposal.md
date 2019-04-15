@@ -12,6 +12,8 @@ Create a Python function to organize and analyze data from absorbance analysis o
 
 I want this function to produce a .csv file with results for sample analysis of ureide concentration, nitrate concentration, and final RAU% (Relative Abundance of Ureides) using values generated and exported via Excel files to the computer by the spectrophotometer in the lab. Specifics of my code that I want to accomplish are as follows:
 - Import .csv files from the KSU Crops dropbox.
+- Ask/prompt the user to identify parameters of dry tissue/solvent amounts used.
+- Respond accordingly based on the parameters given in the previous answer (i.e. run with expected dilution factor or adjust for differences).
 - Within the file, identify what is a standard and what is a sample.
 - Recognize that there are two repetitions for each sample, quantify the variance between the two (>10% should throw some sort of error message), and take the mean of samples with acceptable variance.
 - Generate a curve based on the intersection of the concentration and absorbance values of the standards, and export for later viewing.
@@ -26,9 +28,6 @@ Ureide and nitrate tests are run by the KSU Crops lab in an effort to identify a
 ## Sketch
 
 ![alt text](https://github.com/Rachel-Veenstra/Spectrophotometry-Analysis-Automation/blob/master/FlowChart.png "Flow Chart")
-
-Altered from original - graph will NOT be one of the outputs.
-
 
 
 ## References
