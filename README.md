@@ -25,7 +25,7 @@ Ureide and nitrate tests are run by the KSU Crops lab in an effort to identify a
 
 ## Sketch
 
-![alt text](https://github.com/Rachel-Veenstra/AGRON935-Semester-Project/blob/master/FlowChart.jpg "Flow Chart")
+![alt text](https://github.com/Rachel-Veenstra/AGRON935-Semester-Project/blob/master/Presentations/FlowChart.jpg "Flow Chart")
 
 
 
