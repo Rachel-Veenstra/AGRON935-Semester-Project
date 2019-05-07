@@ -16,13 +16,16 @@ Purpose:
 Inputs:
 >Cloned repository on user's computer - code will automatically navigate to correct folder.
 <br>
+<br>
 Correctly formatted datasheets in the "Datasets" directory. 
 If user does not want sheets to be re-run in future , save in a new folder in "Datasets" directory.
+<br>
 <br>
 Number of files is not important, as long as each sample has a unique ID.
 
 Outputs:
 >.csv file with four columns - Sample ID, nitrate concentration (micromoles/gram), ureide concentration (micromoles/gram), and final RAU calculations.
+<br>
 <br>
 Data is sorted and matched based on the Sample_ID information.
 
