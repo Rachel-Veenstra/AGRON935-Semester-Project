@@ -4,20 +4,30 @@
 **Semester**: Spring 2019 <br>
 **Project Area**: Agronomy
 
-## Objective
+## Project Objective
 
 Create a Python function to organize and analyze data from absorbance analysis of ureides and nitrates for ease of analysis in the KSU Crops Lab.
 
-## Outcomes
+## General Code Documentation
 
-I want this function to produce a .csv file with results for sample analysis of ureide concentration, nitrate concentration, and final RAU% (Relative Abundance of Ureides) using values generated and exported via Excel files to the computer by the spectrophotometer in the lab. Specifics of my code that I want to accomplish are as follows:
-- Import .csv files from the KSU Crops dropbox.
-- Within the file, identify what is a standard and what is a sample.
-- Recognize that there are two repetitions for each sample, quantify the variance between the two (>10% should throw some sort of error message), and take the mean of samples with acceptable variance.
-- Generate a curve based on the intersection of the concentration and absorbance values of the standards, and export for later viewing.
-- Plot absorbance means of each sample on the curve to yield final concentration values.
-- Export these values (after running separately for ureides and nitrates) to a single file and match based on sample id information.
-- There should be four columns on the final .csv file - sample id, ureide concentration, nitrate concentration, and the RAU value.
+Purpose:
+>Pulling data from ureide and nitrate spectrophotometry sheets and calculating Relative Abundance of Ureides (RAU%) in a given sample based on concentrations of ureides and nitrates for that sample. Concentrations are calculated by extrapolating values based on curve and blank information unique to each data sheet.
+
+Inputs:
+>Cloned repository on user's computer - code will automatically navigate to correct folder.
+<br>
+Correctly formatted datasheets in the "Datasets" directory. 
+If user does not want sheets to be re-run in future , save in a new folder in "Datasets" directory.
+<br>
+Number of files is not important, as long as each sample has a unique ID.
+
+Outputs:
+>.csv file with four columns - Sample ID, nitrate concentration (micromoles/gram), ureide concentration (micromoles/gram), and final RAU calculations.
+<br>
+Data is sorted and matched based on the Sample_ID information.
+
+Author: Rachel Veenstra
+Updated: 05-07-2019
 
 ## Background and Rationale
 
